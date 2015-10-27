@@ -1,0 +1,95 @@
+\documentclass[10pt,a4paper,sans]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{green}
+\usepackage{lipsum}
+
+\usepackage[scale=0.85, top=1.25cm, bottom=1cm]{geometry}
+
+\firstname{John-Paul}
+\familyname{Verkamp}
+\address{1055 Rollins Road Apt 205}{Burlingame, CA 94010}
+\email{me@jverkamp.com}
+\mobile{(812) 661-8691}
+\homepage{blog.jverkamp.com}
+\social[github]{jpverkamp}
+
+\nonstopmode
+\begin{document}
+
+\makecvtitle
+
+% ----- ----- ----- ----- ----- -----
+
+\section{Education}
+
+\cventry{2011--2014}{PhD in Computer Science}{Indiana University}{incomplete}{}{Thesis topic: Internet censorship; Minor: Compilers}
+\cventry{2010--2011}{MS in Computer Science}{Indiana University}{}{}{Minor: Compilers}
+\cventry{2006--2010}{BS in Computer Science and Mathematics}{Rose-Hulman Institute of Technology}{}{}{Minors: Japanese and Spanish}
+
+% ----- ----- ----- ----- ----- -----
+
+\section{Industry Experience}
+
+\cventry{2013--present}{Edmodo}{Senior Security/Operations Engineer}{San Mateo, CA}{}{
+    Implemented modern security practices for a website with over 50 million users (including users under the age of 13) such as CSRF protection, comprehensive rate limiting, real-time scanning of forums for organized misuse, and real-time malicious content scanning for several million user uploads per day. Designed and deployed an AWS-hosted, Docker-based deployment infrastructure with a focus on automated recovery and compartmentalization of credentials.
+}
+
+\cventry{2009}{Cyan Optics}{Software Engineer}{Petaluma, CA}{(RHIT Ventures)}{
+    Developed a user interface for high speed optical routers.
+}
+
+\cventry{2007--2008}{Hoosier Stamping}{Software Engineer}{Evansville, IN}{(RHIT Ventures)}{
+    Implemented a genetic algorithm-based job scheduling system which improved job rate completion from 60\% to over 90\%.
+}
+
+\cventry{2007}{Naval Surface Warfare Center Crane}{Software Engineer}{Crane, IN}{}{
+    Updated legacy inventory management system while following US Navy coding standards and practices.
+}
+
+\cventry{2006--2007}{DessAcc}{QA / Software Engineer}{London, England}{(RHIT Ventures)}{
+    Designed, tested, and implemented medical imaging plug-ins for Adobe Photoshop and Acrobat meeting ISO-13485
+    standards for medical devices.
+}
+
+% ----- ----- ----- ----- ----- -----
+
+\section{Research Experience}
+
+\cventry{2013--2014}{A Systematic Study of the Measurement and Circumvention of Internet Censorship}{}{}{}{
+    Explores Internet Censorship around the world, focusing on large scale measurement techniques and the classification and analysis of real world censorship systems.
+}
+
+\cventry{2013--2014}{DNS-Based Censorship}{}{}{}{
+    Implemented a novel asynchronous DNS-based scanning technique to scan the entire IPv4 address space for open resolvers; used these resolvers to measure censorship on a country by country basis.
+}
+
+\cventry{2013}{Five Incidents, One Theme: Twitter Spam as a Weapon to Drown Voices of Protest}{USENIX FOCI '13}{}{}{
+    Analysed one month of Tweets for each of five incidents where political forces used Twitter spam to overwhelm peaceful protest; proposed methods for identifying and mitigating such incidents in the future.
+}
+
+\cventry{2012}{Inferring the Mechanics of Web Censorship Around the World}{USENIX FOCI '12}{}{}{
+    Performed an in-depth study of censorship in 11 countries around the world; created a taxonomy of censorship techniques in practice today.
+}
+
+\cventry{2011}{Facebot: An Undiscovered Botnet Based on Treasure Hunting Social Networks}{}{}{}{
+    Designed a steganographic communication protocol using profile pictures resistant to basic image modification.
+}
+
+\cventry{2009--2010}{Augmenting n-gram Based Authorship Attribution With Neural Networks}{Undergraduate Thesis}{}{}{
+    Combined n-gram based classifiers and neural networks to identify document authors with 95\% accuracy.
+}
+
+\cventry{2008--2010}{Factors Affecting Student Competitiveness}{Undergraduate Thesis}{}{}{
+    Measured how a client/server AI competition and student competitiveness affect student performance in a
+    undergraduate setting.
+}
+
+\cventry{2008--2009}{Audio Depth Map as Replacement for Traditional Vision}{RHIT IRC '09}{}{}{
+    Implemented a stereophonic audio system capable of guiding human movement when sight is not an option.
+}
+
+\cventry{2008}{Application of Semantic Technology to Automatic Audiovisual Slideshow Generation}{}{}{}{
+    Developed semantic APIs for Flickr, Last.FM, and Lyricsfly to dynamically generate audiovisual presentations for a given theme.
+}
+
+\end{document}
